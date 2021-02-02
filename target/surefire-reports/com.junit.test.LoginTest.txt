@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.junit.test.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.junit.test.LoginTest
+testLogin  Time elapsed: 0.036 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: java.lang.Boolean@4c15e7fd<true> but was: java.util.concurrent.atomic.AtomicBoolean@23986957<true>
+	at com.junit.test.LoginTest.testLogin(LoginTest.java:23)
+
+testWrongLogin  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: java.lang.Boolean@4e91d63f<false> but was: java.util.concurrent.atomic.AtomicBoolean@d4342c2<false>
+	at com.junit.test.LoginTest.testWrongLogin(LoginTest.java:29)
+
