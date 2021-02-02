@@ -1,14 +1,16 @@
-package com.junit.test;
+package com.junit.test.authentication;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.platform.commons.annotation.Testable;
 
 import com.junit.authentication.UserAuthentication;
 import com.junit.entity.User;
 
-class AuthenticationTest {
+
+public class AuthenticationTest {
 
 	@BeforeEach
 	void setUp() throws Exception {
